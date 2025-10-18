@@ -14,10 +14,16 @@ function netvio_calculator_shortcode($atts)
         'calories-burned' => 'calories-burned-calculator.php',
         'one-rep-max' => 'one-rep-max-calculator.php',
         'target-heart-rate' => 'target-heart-rate-calculator.php',
+        'pregnancy' => 'pregnancy-calculator.php',
+        'pregnancy-weight-gain' => 'pregnancy-weight-gain-calculator.php',
+        'pregnancy-conception' => 'pregnancy-conception-calculator.php',
+        'due-date' => 'due-date-calculator.php',
+        'conception' => 'conception-calculator.php',
+        'period' => 'period-calculator.php',
     ];
 
     $atts = shortcode_atts(['type' => 'bmi'], $atts);
-    
+
     $type = $atts['type'];
 
     ob_start();
