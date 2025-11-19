@@ -20,6 +20,21 @@ function netvio_calculator_shortcode($atts)
         'due-date' => 'due-date-calculator.php',
         'conception' => 'conception-calculator.php',
         'period' => 'period-calculator.php',
+        'macro' => 'macro-calculator.php',
+        'carbohydrate' => 'carbohydrate-calculator.php',
+        'protein' => 'protein-calculator.php',
+        'fat-intake' => 'fat-intake-calculator.php',
+        'tdee' => 'tdee-calculator.php',
+        'gfr' => 'gfr-calculator.php',
+        'body-type' => 'body-type-calculator.php',
+        'body-surface-area' => 'body-surface-area-calculator.php',
+        'bac' => 'bac-calculator.php',
+        'bmi-kids' => 'bmi-kids-calculator.php',
+        'body-fat' => 'body-fat-calculator.php',
+        'waist-hip-ratio' => 'waist-hip-ratio-calculator.php',
+        'bee' => 'bee-calculator.php',
+        'harris-benedict' => 'harris-benedict-calculator.php',
+        'fiber' => 'fiber-calculator.php',
     ];
 
     $atts = shortcode_atts(['type' => 'bmi'], $atts);
