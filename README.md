@@ -37,17 +37,17 @@ Below is a checklist of calculators, showing which are currently implemented and
 ### Other
 | Calculator Name                        | Status      |
 |----------------------------------------|-------------|
-| Macro Calculator                        | ⬜ Pending      |
-| Carbohydrate Calculator                 | ⬜ Pending      |
-| Protein Calculator                      | ⬜ Pending      |
-| Fat Intake Calculator                   | ⬜ Pending      |
-| TDEE Calculator                         | ⬜ Pending      |
-| GFR Calculator                          | ⬜ Pending      |
-| Body Type Calculator                    | ⬜ Pending      |
-| Body Surface Area Calculator            | ⬜ Pending      |
-| Blood Alcohol Concentration (BAC) Calculator | ⬜ Pending |
+| Macro Calculator                        | ✅ Implemented |
+| Carbohydrate Calculator                 | ✅ Implemented |
+| Protein Calculator                      | ✅ Implemented |
+| Fat Intake Calculator                   | ✅ Implemented |
+| TDEE Calculator                         | ✅ Implemented |
+| GFR Calculator                          | ✅ Implemented |
+| Body Type Calculator                    | ✅ Implemented |
+| Body Surface Area Calculator            | ✅ Implemented |
+| Blood Alcohol Concentration (BAC) Calculator | ✅ Implemented |
 | BMI Calculator – Body Mass Index         | ✅ Implemented |
-| BMI Calculator for Kids                 | ⬜ Pending      |
+| BMI Calculator for Kids                 | ✅ Implemented |
 | BMI Calculator for Men                  | ⬜ Pending      |
 | BMI Calculator for Teens                | ⬜ Pending      |
 | BMI Calculator for Women                | ⬜ Pending      |
@@ -60,11 +60,11 @@ Below is a checklist of calculators, showing which are currently implemented and
 | ABSI Calculator                         | ⬜ Pending      |
 | Adjusted Body Weight Calculator         | ⬜ Pending      |
 | BAI Calculator - Body Adiposity Index   | ⬜ Pending      |
-| Body Fat Calculator                     | ⬜ Pending      |
+| Body Fat Calculator                     | ✅ Implemented |
 | Body Frame Size Calculator              | ⬜ Pending      |
 | Body Shape Calculator                   | ⬜ Pending      |
 | BRI Calculator — Body Roundness Index   | ⬜ Pending      |
-| BSA Calculator – Body Surface Area      | ⬜ Pending      |
+| BSA Calculator – Body Surface Area      | ✅ Implemented |
 | Draw Length Calculator                  | ⬜ Pending      |
 | Bedridden Patient Height Calculator     | ⬜ Pending      |
 | Face Shape Calculator                   | ⬜ Pending      |
@@ -76,7 +76,7 @@ Below is a checklist of calculators, showing which are currently implemented and
 | Ponderal Index Calculator               | ⬜ Pending      |
 | RFM Calculator (Relative Fat Mass)      | ⬜ Pending      |
 | Skinfold Body Fat Calculator            | ⬜ Pending      |
-| Waist to Hip Ratio Calculator           | ⬜ Pending      |
+| Waist to Hip Ratio Calculator           | ✅ Implemented |
 | Waist to Height Ratio Calculator        | ⬜ Pending      |
 | Weight Loss Percentage Calculator       | ⬜ Pending      |
 
@@ -84,32 +84,32 @@ Below is a checklist of calculators, showing which are currently implemented and
 | Calculator Name                        | Status      |
 |----------------------------------------|-------------|
 | Added Sugar Intake Calculator           | ⬜ Pending      |
-| BEE Calculator                          | ⬜ Pending      |
-| Harris-Benedict Calculator (Basal Metabolic Rate) | ⬜ Pending |
+| BEE Calculator                          | ✅ Implemented |
+| Harris-Benedict Calculator (Basal Metabolic Rate) | ✅ Implemented |
 | Katch-McArdle Calculator                | ⬜ Pending      |
 | BMR Calculator (Basal Metabolic Rate, Mifflin St Jeor Equation) | ⬜ Pending |
 | Calorie Calculator                      | ⬜ Pending      |
 | Calorie Deficit Calculator              | ⬜ Pending      |
-| Carb Calculator (Carbohydrates)         | ⬜ Pending      |
+| Carb Calculator (Carbohydrates)         | ✅ Implemented |
 | Diet Risk Score Calculator              | ⬜ Pending      |
 | DRI Calculator                          | ⬜ Pending      |
 | EER Calculator — Estimated Energy Requirement | ⬜ Pending |
-| Fat Intake Calculator                   | ⬜ Pending      |
-| Fiber Calculator                        | ⬜ Pending      |
+| Fat Intake Calculator                   | ✅ Implemented |
+| Fiber Calculator                        | ✅ Implemented |
 | Gastric Sleeve Weight Loss Calculator   | ⬜ Pending      |
 | IIFYM Calculator (If It Fits Your Macros) | ⬜ Pending    |
 | Keto Calculator                         | ⬜ Pending      |
-| Macro Calculator                        | ⬜ Pending      |
+| Macro Calculator                        | ✅ Implemented |
 | Maintenance Calorie Calculator          | ⬜ Pending      |
 | Meal Calorie Calculator                 | ⬜ Pending      |
 | Micronutrient Calculator                | ⬜ Pending      |
 | Net Carbs Calculator                    | ⬜ Pending      |
-| Protein Calculator                      | ⬜ Pending      |
+| Protein Calculator                      | ✅ Implemented |
 | Quarantine Activity Calculator          | ⬜ Pending      |
 | RMR Calculator - Resting Metabolic Rate | ⬜ Pending      |
 | Calorie Intake Calculator (Simple)      | ⬜ Pending      |
 | Sodium in Salt Calculator               | ⬜ Pending      |
-| TDEE Calculator - Total Daily Energy Expenditure | ⬜ Pending |
+| TDEE Calculator - Total Daily Energy Expenditure | ✅ Implemented |
 | Vitamin Calculator                      | ⬜ Pending      |
 | Vitamin A Calculator                    | ⬜ Pending      |
 | Vitamin D Calculator                    | ⬜ Pending      |
