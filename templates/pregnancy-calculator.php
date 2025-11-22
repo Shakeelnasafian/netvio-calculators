@@ -2,8 +2,9 @@
 // Pregnancy Calculator Template
 ?>
 <div class="card mb-4 calculator pregnancy-calculator">
-    <h4 class="card-title mb-3">Pregnancy Calculator</h4>
-    <div x-data="{
+    <div class="card-body">
+        <h4 class="card-title mb-3">Pregnancy Calculator</h4>
+        <div x-data="{
         lastPeriod: '',
         weeksPregnant: '',
         calculate() {
@@ -17,17 +18,18 @@
             }
         }
     }">
-        <form @submit.prevent="calculate">
-            <div class="mb-2">
-                <label>Last Period Date:</label>
-                <input type="date" x-model="lastPeriod" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Calculate Weeks Pregnant</button>
-        </form>
-        <template x-if="weeksPregnant !== ''">
-            <div class="alert alert-success mt-3">
-                <strong>Weeks Pregnant:</strong> <span x-text="weeksPregnant"></span>
-            </div>
-        </template>
+            <form @submit.prevent="calculate">
+                <div class="mb-2">
+                    <label>Last Period Date:</label>
+                    <input type="date" x-model="lastPeriod" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Calculate Weeks Pregnant</button>
+            </form>
+            <template x-if="weeksPregnant !== ''">
+                <div class="alert alert-success mt-3">
+                    <strong>Weeks Pregnant:</strong> <span x-text="weeksPregnant"></span>
+                </div>
+            </template>
+        </div>
     </div>
 </div>
