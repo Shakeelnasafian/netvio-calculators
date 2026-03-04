@@ -1,0 +1,255 @@
+/* ============================================================
+   Netvio Calculators – Admin Styles
+   ============================================================ */
+
+/* Wrap */
+.netvio-admin-wrap {
+	max-width: 1200px;
+}
+
+/* Header */
+.netvio-admin-header {
+	padding: 24px 0 16px;
+	border-bottom: 2px solid #0d6efd;
+	margin-bottom: 24px;
+}
+.netvio-admin-header h1 {
+	font-size: 28px;
+	font-weight: 700;
+	color: #0d6efd;
+	margin: 0 0 4px;
+}
+.netvio-subtitle {
+	color: #6c757d;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Sections */
+.netvio-section {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px 24px;
+	margin-bottom: 24px;
+}
+.netvio-section h2 {
+	margin-top: 0;
+	font-size: 18px;
+	color: #1d2327;
+}
+.netvio-count {
+	color: #6c757d;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+/* Stats row */
+.netvio-stats-row {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 24px;
+	flex-wrap: wrap;
+}
+.netvio-stat-card {
+	flex: 1;
+	min-width: 130px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.netvio-stat-number {
+	font-size: 36px;
+	font-weight: 700;
+	color: #0d6efd;
+	line-height: 1;
+}
+.netvio-stat-number.netvio-green { color: #198754; }
+.netvio-stat-number.netvio-red   { color: #dc3545; }
+.netvio-stat-label {
+	font-size: 12px;
+	color: #6c757d;
+	margin-top: 6px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+/* Category grid */
+.netvio-category-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 16px;
+}
+.netvio-category-card {
+	background: #f8f9fa;
+	border: 1px solid #e9ecef;
+	border-radius: 8px;
+	padding: 16px;
+}
+.netvio-category-card h3 {
+	font-size: 15px;
+	margin: 0 0 8px;
+	color: #0d6efd;
+}
+.netvio-cat-count {
+	font-size: 13px;
+	margin: 0 0 10px;
+	color: #495057;
+}
+.netvio-cat-count .netvio-green { color: #198754; font-weight: 600; }
+.netvio-category-card ul {
+	margin: 0;
+	padding-left: 18px;
+	font-size: 13px;
+	color: #495057;
+}
+.netvio-category-card li {
+	margin-bottom: 3px;
+}
+.netvio-disabled-calc {
+	color: #adb5bd;
+	text-decoration: line-through;
+}
+.netvio-badge-disabled {
+	background: #dc3545;
+	color: #fff;
+	font-size: 10px;
+	padding: 1px 5px;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+/* How to list */
+.netvio-how-to {
+	font-size: 14px;
+	line-height: 1.8;
+}
+.netvio-code-example {
+	background: #f1f3f5;
+	border-radius: 6px;
+	padding: 12px 16px;
+	display: inline-block;
+	margin-top: 8px;
+}
+.netvio-code-example code {
+	font-size: 15px;
+	color: #d63384;
+}
+
+/* Search box */
+.netvio-search-wrap {
+	margin-bottom: 20px;
+}
+.netvio-search-wrap input {
+	width: 100%;
+	max-width: 400px;
+	padding: 8px 12px;
+	font-size: 14px;
+	border: 1px solid #ccd0d4;
+	border-radius: 6px;
+}
+
+/* Calculator table */
+.netvio-calc-table {
+	margin-top: 0;
+}
+.netvio-calc-table thead th {
+	background: #f8f9fa;
+	font-weight: 600;
+}
+.netvio-calc-name strong {
+	color: #1d2327;
+}
+.netvio-row-disabled td {
+	opacity: 0.55;
+}
+
+/* Shortcode display */
+.netvio-shortcode-wrap {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.netvio-shortcode-code {
+	background: #f1f3f5;
+	color: #d63384;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 13px;
+	flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.netvio-copy-btn {
+	flex-shrink: 0;
+}
+.netvio-copy-btn.copied {
+	background: #198754 !important;
+	border-color: #198754 !important;
+	color: #fff !important;
+}
+
+/* Status badges */
+.netvio-badge {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 3px 8px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.netvio-badge-on  { background: #d1e7dd; color: #0a3622; }
+.netvio-badge-off { background: #f8d7da; color: #58151c; }
+
+/* Toast notification */
+.netvio-toast {
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+	background: #198754;
+	color: #fff;
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+	opacity: 0;
+	transform: translateY(10px);
+	transition: opacity 0.25s ease, transform 0.25s ease;
+	pointer-events: none;
+	z-index: 9999;
+}
+.netvio-toast.show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Settings – calculator toggles */
+.netvio-toggle-group {
+	margin-bottom: 18px;
+}
+.netvio-toggle-group > strong {
+	display: block;
+	font-size: 13px;
+	color: #0d6efd;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.netvio-toggle-label {
+	display: inline-block;
+	margin-right: 18px;
+	margin-bottom: 6px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.netvio-toggle-label input {
+	margin-right: 4px;
+}
